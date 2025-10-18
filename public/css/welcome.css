@@ -1,0 +1,108 @@
+body {
+    background-color: #EEE3D8;
+    color: #1D0B07;
+}
+
+.navbar-welcome {
+    background-color: #fffaf2 !important;
+    border-bottom: 2px solid #e9e2d9;
+}
+
+.navbar-welcome .navbar-brand,
+.navbar-welcome .nav-link {
+    color: #1D0B07 !important;
+}
+
+.navbar-welcome .nav-link:hover {
+    color: #5a3f2b !important;
+}
+
+.btn-coffee {
+    background-color: #5a3f2b;
+    border-color: #5a3f2b;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-coffee:hover {
+    background-color: #493121;
+    border-color: #493121;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.hero-section {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../assets/img/background-welcome.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 11, 7, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+.passion-section {
+    padding: 80px 0;
+    background-color: #fffaf2;
+}
+
+.passion-section h2 {
+    color: #1D0B07;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.feature-card {
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+.feature-card .icon {
+    font-size: 3rem;
+    color: #5a3f2b;
+    margin-bottom: 20px;
+}
+
+.footer-welcome {
+    background-color: #1D0B07;
+    color: #EEE3D8;
+}
+
+.footer-welcome a {
+    color: #fffaf2;
+}
+
